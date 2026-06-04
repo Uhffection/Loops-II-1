@@ -1,8 +1,20 @@
 // Write your code below
-function countDown () {
-    for(i=10; i>=1; i--){
+function countDown() {
+    for (let i = 10; i > 0; i-- ) {
         console.log(i)
-    }
 }
+    return ("Blast off!")
+}
+    console.log(countDown())
+// same thing in while loop configuration
 
-countDown()
+function countDown2() {
+    let i = 10
+
+    while (i > 0) {
+        console.log(i);
+        i--;
+    }
+    return ("Blast off!")
+}
+    console.log(countDown2());
